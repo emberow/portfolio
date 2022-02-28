@@ -1,15 +1,18 @@
 $(document).ready(function(){
-    var a,b,c;
-    a = $(window).height(); //瀏覽器窗口高度
-    var group = $(".group-pic");
-    $(window).scroll(function(){
-        b = $(this).scrollTop(); //頁面滾動的高度
-        c = group.offset().top; //元素距離文檔（document）頂部的高度
-        if(a+b>c){
-        }
-        else{
-        }
+    $(".front_end_illustrate").hide();
+    $(".back_end_illustrate").fadeIn();
+    $(".back_end_button").attr("class", "back_end_button active");
+
+    $(".front_end_button").click(function(){
+        $(".back_end_illustrate").hide();
+        $(".front_end_illustrate").fadeIn();
+        $(".front_end_button").attr("class", "front_end_button active");
+        $(".back_end_button").attr("class", "back_end_button");
+    });
+    $(".back_end_button").click(function(){
+        $(".front_end_illustrate").hide();
+        $(".back_end_illustrate").fadeIn();
+        $(".back_end_button").attr("class", "back_end_button active");
+        $(".front_end_button").attr("class", "front_end_button");
     });
 });
-    
-    

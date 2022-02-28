@@ -72,6 +72,39 @@ body{
     font-size: 2vw;
 }
 
+ul{
+    margin-top: 0vw;
+    margin-bottom: 4vw;
+    padding: 1vw;
+}
+
+li{
+    list-style-type: none;
+    width: 7vw;
+    float: left;
+   
+    border-radius: 1vw;
+    margin-left: 12vw;
+    /* margin-top: 0vw;
+    margin-bottom: 2vw; */
+}
+
+.active{
+    background-color: #F5C70B;
+    color: black;
+}
+
+li:hover{
+    background-color: #fffca1;
+    color: black;
+    cursor: pointer;
+}
+
+/* 文字靠左對齊 */
+.stay_left{
+    margin-left: 10vw;
+    text-align: left;
+}
 
 
 
