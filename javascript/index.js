@@ -16,3 +16,7 @@ $(document).ready(function(){
         $(".front_end_button").attr("class", "front_end_button");
     });
 });
+
+function back_to_top(){
+    window.location = "#";
+}

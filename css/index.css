@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-color: #fffca1;
+    font-family: Arial, Verdana, Helvetica;
 }
 
 .container{
@@ -106,6 +107,24 @@ li:hover{
     text-align: left;
 }
 
+.skill_block p{
+    font-size: 1.5vw;
+}
+
+ul{
+    margin-top: -2vw;
+}
 
 
+i{
+    position: fixed;
+    right: 8vw;
+    bottom: 5vw;
+    font-size: 5vw;
+    color: black;
+}
+
+i:hover{
+    color:#6B5036;
+}
 
