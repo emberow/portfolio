@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/index.css">
-    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
     
@@ -17,6 +17,34 @@
         
         <div class="content_block">
             <p class="title">自傳</p>
+            <p class="autobiography_button" onclick="show_article1();">學校帶給我的啟發</p>
+            <p class="autobiography_button" onclick="show_article2();">學習動機</p>
+            
+            
+
+            <div id="article1">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                    <span onclick="esc_button();" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <div class="w3-container">
+                        <article>
+                            在大學四年中，學校教了非常多種程式語言，每種程式語言都有不同的特性以及他擅長的領域，我們學校幾乎什麼都教，不只有學到基本的程式語言，還學到了底層os的部分、怎麼寫程式更有效率、網路之間的傳遞等等，還有其他偏應用的課程，像是網頁設計、遊戲設計、AI、甚至是Arduino也會學到，而我也找到了我有興趣的部分，也是最契合學校所教的，就是後端的部分。
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div id="article2">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                    <span onclick="esc_button();" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <div class="w3-container">
+                        <article class="stay_left">
+                            不過在學校教的東西遠遠不夠，畢竟課程只有一學期，所以我會在家中自學，意外地發現了<a href="https://www.w3schools.com/">w3schools</a>的網站，讓我將網頁設計的中學得更深更廣，也有學了基本的前端知識(html、css、js)，可以簡單的刻出一個網站，不過後來發現前端不是我想要的，所以之後的目標就往後端走，而我也按照了<a href="https://roadmap.sh/backend">roadmap</a>讓我清楚地知道後端所學的東西，以及我不足的地方。
+                        </article>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div class="content_block">
@@ -31,17 +59,22 @@
                 <p class="front_end_illustrate stay_left">使用ajax與後台串接</p>
                 <p class="front_end_illustrate stay_left">串接RESTful API</p>
                 
-                <p class="back_end_illustrate stay_left">Programming : javascript、python、php、c++</p>
+                <p class="back_end_illustrate stay_left">OS : Windows、Linux</p>
+                <p class="back_end_illustrate stay_left">Programming : javascript、python、c++</p>
                 <p class="back_end_illustrate stay_left">Framework : express(node.js)、flask(python)</p>
                 <p class="back_end_illustrate stay_left">Database : MySQL</p>
                 <p class="back_end_illustrate stay_left">Cloud : Amazon Lightsail</p>
+                <p class="back_end_illustrate stay_left">container : Docker</p>
+                
                 <p class="back_end_illustrate stay_left">RESTful API架構</p>
                 <p class="back_end_illustrate stay_left">MVC架構</p>
+
             </div>
         </div>
 
         <div class="content_block">
             <p class="title">作品集</p>
+            <p class="back_end_illustrate stay_left">Auth : cookie、session</p>
         </div>
 
         <div class="content_block">

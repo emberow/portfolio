@@ -22,28 +22,33 @@ body{
     border-radius:50%;
 }
 
-.bee{
-    width: 5vw;
-    position:fixed;
-    top:0vw;
-    left:85%;
+.autobiography_button{
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 10vw;
+}
+.autobiography_button:hover{
+    color: black;
 }
 
-.honeycomb{
-    background-repeat: no-repeat;
-    position:fixed;
-    bottom:0vw;
-    left:80%;
-    /* 解決圖片失真 */
-    /* object-fit:none; */
+article{
+    color: black;
 }
 
-.honeycomb:hover{
-    background-repeat: no-repeat;
-    position:fixed;
-    bottom:0vw;
-    left:80%;
-    background-image:url("../image/honeycomb_and_bee.png");
+#article1{
+    display: none;
+    position: fixed;
+    right: 20%;
+    left: 20%;
+    top:20%;
+    bottom: 20%;
+}
+#article2{
+    display: none;
+    position: fixed;
+    right: 20%;
+    top:20%;
 }
 
 .name{
@@ -58,6 +63,13 @@ body{
 
 .github_icon{
     width: 5%;
+}
+
+article{
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: left;
 }
 
 .content_block{
@@ -103,8 +115,10 @@ li:hover{
 
 /* 文字靠左對齊 */
 .stay_left{
-    margin-left: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     text-align: left;
+    font-size: 1.5vw;
 }
 
 .skill_block p{
@@ -113,6 +127,10 @@ li:hover{
 
 ul{
     margin-top: -2vw;
+}
+
+a{
+    color: white;
 }
 
 
