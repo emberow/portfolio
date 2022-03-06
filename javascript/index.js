@@ -33,11 +33,20 @@ function show_article2(){
     });
 }
 
+function show_article3(){
+    $('#article3').css({
+        "display":'block'
+    });
+}
+
 function esc_button(){
     $('#article1').css({
         "display":'none'
     });
     $('#article2').css({
+        "display":'none'
+    });
+    $('#article3').css({
         "display":'none'
     });
     

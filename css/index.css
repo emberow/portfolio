@@ -32,8 +32,21 @@ body{
     color: black;
 }
 
+.w3-modal-content{
+    border-radius: 2vw !important;
+}
+.w3-button{
+    color: black !important;
+    /* border-radius: 2vw !important; */
+}
+
+.w3-container{
+   background-color: wheat;
+}
+
 article{
     color: black;
+    margin: 5vw;
 }
 
 #article1{
@@ -48,7 +61,18 @@ article{
     display: none;
     position: fixed;
     right: 20%;
+    left: 20%;
     top:20%;
+    bottom: 20%;
+}
+
+#article3{
+    display: none;
+    position: fixed;
+    right: 20%;
+    left: 20%;
+    top:20%;
+    bottom: 20%;
 }
 
 .name{
