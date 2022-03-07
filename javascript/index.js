@@ -39,6 +39,28 @@ function show_article3(){
     });
 }
 
+function show_article4(){
+    $('#article4').css({
+        "display":'block'
+    });
+}
+function show_article5(){
+    $('#article5').css({
+        "display":'block'
+    });
+}
+function show_article6(){
+    $('#article6').css({
+        "display":'block'
+    });
+}
+
+function show_article7(){
+    $('#article7').css({
+        "display":'block'
+    });
+}
+
 function esc_button(){
     $('#article1').css({
         "display":'none'
@@ -47,6 +69,18 @@ function esc_button(){
         "display":'none'
     });
     $('#article3').css({
+        "display":'none'
+    });
+    $('#article4').css({
+        "display":'none'
+    });
+    $('#article5').css({
+        "display":'none'
+    });
+    $('#article6').css({
+        "display":'none'
+    });
+    $('#article7').css({
         "display":'none'
     });
     

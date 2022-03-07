@@ -37,16 +37,29 @@ body{
 }
 .w3-button{
     color: black !important;
-    /* border-radius: 2vw !important; */
+    border-radius: 2vw !important;
 }
 
 .w3-container{
    background-color: wheat;
+
+}
+.stay_center{
+font-size: 1.5vw;
 }
 
 article{
     color: black;
     margin: 5vw;
+    
+}
+
+
+.link{
+    margin-top: -1vw;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.5vw;
 }
 
 #article1{
@@ -74,6 +87,44 @@ article{
     top:20%;
     bottom: 20%;
 }
+
+#article4{
+    display: none;
+    position: fixed;
+    right: 20%;
+    left: 20%;
+    top:5%;
+    bottom: 5%;
+}
+
+#article5{
+    display: none;
+    position: fixed;
+    right: 20%;
+    left: 20%;
+    top:10%;
+    bottom: 20%;
+   
+}
+
+#article6{
+    display: none;
+    position: fixed;
+    right: 20%;
+    left: 20%;
+    top:10%;
+    bottom: 20%;
+}
+
+#article7{
+    display: none;
+    position: fixed;
+    right: 20%;
+    left: 20%;
+    top:20%;
+    bottom: 20%;
+}
+
 
 .name{
     margin-bottom: 0vw;
@@ -155,6 +206,7 @@ ul{
 
 a{
     color: white;
+    font-size: 1.5vw;
 }
 
 
