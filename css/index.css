@@ -61,6 +61,12 @@ article{
     text-decoration: underline;
     font-size: 1.5vw;
 }
+.link:hover{
+    color: black;
+}
+a:hover{
+    color: black;
+}
 
 #article1{
     display: none;
