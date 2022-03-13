@@ -132,6 +132,20 @@
                 </div>
             </div>
 
+            <div id="article8">
+                <div class="w3-modal-content w3-animate-top w3-card-4">
+                    <span onclick="esc_button();" 
+                    class="w3-button w3-display-topright">&times;</span>
+                    <div class="w3-container" >
+                        <article class="stay_left">
+                            介紹:輸入股票代碼會得到過去一年到現在的開盤價<br>
+                            爬yahoo後台api，並由chart.js繪製圖表，並用MongoDB儲存股票代碼與名字轉換 <br>
+                            <img src="./image/爬蟲2.png" style="width: 80%;"><br>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <div class="content_block">
@@ -149,7 +163,7 @@
                 <p class="back_end_illustrate stay_left">Programming : javascript、python、c++</p>
                 <p class="back_end_illustrate stay_left">OS : Windows、Linux</p>
                 <p class="back_end_illustrate stay_left">Framework : express(node.js)、flask(python)</p>
-                <p class="back_end_illustrate stay_left">Database : MySQL</p>
+                <p class="back_end_illustrate stay_left">Database : MySQL、MongoDB</p>
                 <p class="back_end_illustrate stay_left">Cloud : Amazon Lightsail</p>
                 <!-- <p class="back_end_illustrate stay_left">container : Docker</p> -->
             </div>
@@ -183,12 +197,19 @@
                     <td style="width: 30vw; text-align: center;">
                         <img src="./image/portfolio.png" style="width: 15vw;"></img>
                     </td>
+                    <td style="width: 30vw; text-align: center;">
+                        <img src="./image/爬蟲.png" style="width: 15vw;"></img>
+                    </td>
                     
                 </tr>
                 <tr>
                     <td style="text-align: center;">
                         <p style="margin-top: 0vw; margin-bottom: -1vw;">履歷網站</p>
                         <a href="https://github.com/emberow/portfolio" target="_blank">github</a>|<a class="link" onclick="show_article7();">作品介紹</a>
+                    </td>
+                    <td style="text-align: center;">
+                        <p style="margin-top: 0vw; margin-bottom: -1vw;">爬蟲</p>
+                        <a href="https://github.com/emberow/search_stock_price" target="_blank">github</a>|<a class="link" onclick="show_article8();">作品介紹</a>
                     </td>
                 </tr>
 

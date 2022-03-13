@@ -60,6 +60,11 @@ function show_article7(){
         "display":'block'
     });
 }
+function show_article8(){
+    $('#article8').css({
+        "display":'block'
+    });
+}
 
 function esc_button(){
     $('#article1').css({
@@ -81,6 +86,9 @@ function esc_button(){
         "display":'none'
     });
     $('#article7').css({
+        "display":'none'
+    });
+    $('#article8').css({
         "display":'none'
     });
     

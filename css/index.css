@@ -131,6 +131,15 @@ a:hover{
     bottom: 20%;
 }
 
+#article8{
+    display: none;
+    position: fixed;
+    right: 20%;
+    left: 20%;
+    top:10%;
+    bottom: 20%;
+}
+
 
 .name{
     margin-bottom: 0vw;
