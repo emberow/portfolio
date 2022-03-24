@@ -66,6 +66,12 @@ function show_article8(){
     });
 }
 
+function show_article9(){
+    $('#article9').css({
+        "display":'block'
+    });
+}
+
 function esc_button(){
     $('#article1').css({
         "display":'none'
@@ -91,5 +97,7 @@ function esc_button(){
     $('#article8').css({
         "display":'none'
     });
-    
+    $('#article9').css({
+        "display":'none'
+    });
 }
